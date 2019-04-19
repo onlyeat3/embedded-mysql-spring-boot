@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.embedded.mysql",
+      "type": "io.github.liuyuyu.embedded.mysql.spring.boot.MySQLProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "enable",
+      "type": "java.lang.Boolean",
+      "description": "Enable embedded MySQL",
+      "defaultValue": "true"
+    },
+    {
+      "name": "databaseName",
+      "type": "java.lang.String",
+      "description": "Database name ",
+      "defaultValue": "test"
+    },
+    {
+      "name": "port",
+      "type": "java.lang.Integer",
+      "description": "MySql Server port",
+      "defaultValue": "3333"
+    },
+    {
+      "name": "scriptLocations",
+      "type": "java.lang.String",
+      "description": "data.sql"
+    },
+    {
+      "name": "charsetName",
+      "type": "java.lang.String",
+      "description": "MySQL Charset Name"
+    },
+    {
+      "name": "timeZone",
+      "type": "java.lang.String",
+      "description": "TimeZone ID(java.util.TimeZone)"
+    },
+    {
+      "name": "timeoutSeconds",
+      "type": "java.lang.Long",
+      "description": "timeout(unit seconds)"
+    },
+    {
+      "name": "timeoutSeconds",
+      "type": "java.lang.Long",
+      "description": "timeout(unit seconds)"
+    },
+    {
+      "name": "serverVariables",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "MySQL Server Variables"
+    },{
+      "name": "tempDir",
+      "type": "java.lang.String",
+      "description": "MySQL Server TempDir"
+    }
+  ]
+}
