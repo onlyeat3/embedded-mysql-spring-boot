@@ -4,9 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.liuyuyu</groupId>
     <artifactId>embedded-mysql-spring-boot-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>embedded-mysql-spring-boot-starter</name>
     <description>Embedded MySQL Server</description>
+    <url>https://github.com/liuyuyu/embedded-mysql-spring-boot</url>
 
     <properties>
         <java.version>1.8</java.version>

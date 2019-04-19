@@ -10,9 +10,9 @@
     </parent>
     <groupId>io.github.liuyuyu</groupId>
     <artifactId>embedded-mysql-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>embedded-mysql-demo</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for embedded mysql</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>io.github.liuyuyu</groupId>
             <artifactId>embedded-mysql-spring-boot-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
