@@ -47,3 +47,4 @@ Extract /Users/liuyuyu/.embedmysql/MySQL-5.6/mysql-5.6.21-osx10.9-x86_64.tar.gz 
 2019-04-19 19:58:08.772  INFO 14499 --- [           main] com.wix.mysql.MysqldExecutable           : Starting MysqldProcess
 2019-04-19 19:58:09.369  INFO 14499 --- [           main] d.f.embed.process.runtime.Executable     : start com.wix.mysql.config.MysqldConfig@122635ef
 ```
+enjoy it Luck Dog!
