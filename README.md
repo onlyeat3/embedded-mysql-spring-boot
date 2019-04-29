@@ -48,3 +48,40 @@ Extract /Users/liuyuyu/.embedmysql/MySQL-5.6/mysql-5.6.21-osx10.9-x86_64.tar.gz 
 2019-04-19 19:58:09.369  INFO 14499 --- [           main] d.f.embed.process.runtime.Executable     : start com.wix.mysql.config.MysqldConfig@122635ef
 ```
 enjoy it Luck Dog!
+
+
+
+
+
+### MySQL Version
+
+`spring.datasource.embedded.mysql.version`
+
+```
+v5_5_40
+v5_5_50
+v5_5_51
+v5_5_52
+v5_5_latest
+v5_6_21
+v5_6_22
+v5_6_23
+v5_6_24
+v5_6_31
+v5_6_32
+v5_6_33
+v5_6_34
+v5_6_35
+v5_6_36
+v5_6_latest
+v5_7_10
+v5_7_13
+v5_7_14
+v5_7_15
+v5_7_16
+v5_7_17
+v5_7_18
+v5_7_19
+v5_7_latest
+```
+
