@@ -1,5 +1,11 @@
 # Embedded MySQL Spring Boot Starter
 
+### What It Is
+
+It is an embedded MySQL for instead H2/Sqlite etc.
+
+Before use,Please OPEN <https://github.com/liuyuyu/embedded-mysql-spring-boot/blob/master/embedded-mysql-demo/README.md>
+
 ## Usage
 add dependency in pom.xml
 ```xml
