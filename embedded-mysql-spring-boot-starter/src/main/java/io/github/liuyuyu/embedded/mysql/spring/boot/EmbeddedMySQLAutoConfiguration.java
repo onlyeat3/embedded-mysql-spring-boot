@@ -1,5 +1,4 @@
 package io.github.liuyuyu.embedded.mysql.spring.boot;
-
 import com.wix.mysql.EmbeddedMysql;
 import com.wix.mysql.Sources;
 import com.wix.mysql.config.MysqldConfig;
@@ -7,6 +6,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
@@ -22,7 +22,7 @@ import static com.wix.mysql.EmbeddedMysql.anEmbeddedMysql;
 
 @Configuration
 @EnableConfigurationProperties(MySQLProperties.class)
-@AutoConfigureBefore(DataSourceAutoConfiguration.class)
+@AutoConfigureBefore({DataSourceAutoConfiguration.class, FlywayAutoConfiguration.class})
 @ConditionalOnProperty(name = "spring.datasource.embedded.mysql.enable",havingValue = "true")
 public class EmbeddedMySQLAutoConfiguration implements InitializingBean {
     @Autowired private MySQLProperties mySQLProperties;
