@@ -1,6 +1,7 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+*.xml.versionsBackup
 
 ### STS ###
 .apt_generated

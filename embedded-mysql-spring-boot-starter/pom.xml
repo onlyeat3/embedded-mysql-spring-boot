@@ -4,15 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.liuyuyu</groupId>
-        <artifactId>embedded-mysql-spring-boot</artifactId>
-        <version>springboot2.0.0.1-SNAPSHOT</version>
+        <artifactId>embedded-mysql-spring-boot-parent</artifactId>
+        <version>0.0.2</version>
     </parent>
     <artifactId>embedded-mysql-spring-boot-starter</artifactId>
-    <version>springboot2.0.0.1-SNAPSHOT</version>
-    <name>embedded-mysql-spring-boot-starter</name>
-    <description>Embedded MySQL Server</description>
-    <url>https://github.com/liuyuyu/embedded-mysql-spring-boot</url>
-
+    <version>0.0.2</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

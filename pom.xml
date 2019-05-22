@@ -5,9 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.liuyuyu</groupId>
-    <artifactId>embedded-mysql-spring-boot</artifactId>
+    <artifactId>embedded-mysql-spring-boot-parent</artifactId>
     <packaging>pom</packaging>
-    <version>springboot2.0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
+    <name>embedded-mysql-spring-boot-starter</name>
+    <description>Embedded MySQL Server</description>
+    <url>https://github.com/liuyuyu/embedded-mysql-spring-boot</url>
     <modules>
         <module>embedded-mysql-spring-boot-starter</module>
     </modules>

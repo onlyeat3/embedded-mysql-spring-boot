@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.liuyuyu</groupId>
-        <artifactId>embedded-mysql-spring-boot</artifactId>
-        <version>springboot2.0.0.1-SNAPSHOT</version>
+        <artifactId>embedded-mysql-spring-boot-parent</artifactId>
+        <version>0.0.2</version>
     </parent>
     <artifactId>embedded-mysql-demo</artifactId>
-    <version>springboot2.0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>embedded-mysql-demo</name>
     <description>Demo project for embedded mysql</description>
 
