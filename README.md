@@ -91,3 +91,5 @@ v5_7_19
 v5_7_latest
 ```
 
+### MySQL Installer Folder
+If the download address is `https://cdn.mysql.com//archives/mysql-5.6/mysql-5.6.21-winx64.zip`, the installation directory is `~/.embedmysql/MySQL-5.6/mysql-5.6.21-winx64.zip`, you can download the zip file yourself and extract it to the corresponding directory.
